@@ -25,7 +25,7 @@ namespace Offsets
 
 	// Virtual Indexs
 	int DrawTitleSafeArea = 0x388 / 0x8; // updated
-	int ProcessEvent = 0x4D; // updated
+	int ProcessEvent = 0x4D; // outdated
 	int GetMaterial = 0x2D0 / 0x8; // updated
 	int GetPlayerViewPoint = 0x7F8 / 0x8; // updated
 	int GetCameraViewPoint = 0x2C8 / 0x8; // updated
