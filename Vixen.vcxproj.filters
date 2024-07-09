@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="Fortnite\SDK\Classes.h">
+      <Filter>Fortnite\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\SDK\Structs.h">
+      <Filter>Fortnite\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\VTableHook.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Custom\NoCRT.h">
+      <Filter>Helper\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\SpoofCall.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Custom\Vector.h">
+      <Filter>Helper\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Custom\Map.h">
+      <Filter>Helper\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\SysCall.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\DrawTitleSafeArea.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\DrawMenu.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Canvas.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Settings.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Custom\Module.h">
+      <Filter>Helper\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\PEB.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Safety\SKCrypter.h">
+      <Filter>Helper\Safety</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hook.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\FireSingle.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\GetCameraViewPoint.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\GetFiringRate.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\GetPlayerViewPoint.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\TryToFire.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\GetViewPoint.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\GetDamageStartLocation.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\GetWeaponTargetingTransform.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\GetTargetingSourceLocation.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\GetCalculatedReticleSpread.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Hooks\GetReloadTime.h">
+      <Filter>Fortnite\Hooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fortnite">
+      <UniqueIdentifier>{518edb3d-034b-4bd7-b14f-697a60e9c2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{0e8eb094-4408-4af1-aae2-1cc493e40253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fortnite\SDK">
+      <UniqueIdentifier>{b8498c58-97de-470e-8803-f1c8c497cbf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Custom">
+      <UniqueIdentifier>{9663a867-e4c4-4980-b0f6-bdda6b1ecf6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Assembly">
+      <UniqueIdentifier>{28999ac1-1305-4426-956a-3b0f195f9f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fortnite\Hooks">
+      <UniqueIdentifier>{a843acb3-a004-4892-b938-211697230718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Safety">
+      <UniqueIdentifier>{2a2e2b39-4c93-48a8-9280-6f7c9bd3a22d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Helper\Assembly\PEB.asm">
+      <Filter>Helper\Assembly</Filter>
+    </MASM>
+    <MASM Include="Helper\Assembly\SysCall.asm">
+      <Filter>Helper\Assembly</Filter>
+    </MASM>
+    <MASM Include="Helper\Assembly\SpoofCall.asm">
+      <Filter>Helper\Assembly</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
