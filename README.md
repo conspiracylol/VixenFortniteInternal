@@ -3,4 +3,4 @@ Vixen Fortnite internal - outdated since they removed battleye and too lazy to f
 
 originally based on wampusfn
 
-most offsets need fixed
+processevent, staticfindobject, gworld/uworld, most exploit offsets, bonematrix and other shit outdated
