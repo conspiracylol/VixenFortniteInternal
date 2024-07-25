@@ -1,6 +1,5 @@
 #pragma once
 #include "../DrawMenu.h"
-#include <Prediction.h>
 
 void(*DrawTitleSafeAreaOriginal)(UGameViewportClient* Viewport, UCanvas* Canvas) = nullptr;
 void DrawTitleSafeArea(UGameViewportClient* Viewport, UCanvas* Canvas)
